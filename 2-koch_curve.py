@@ -26,7 +26,8 @@ def main():
     t.speed(0)
     
     recursion_level = int(input("Будь ласка, введіть рівень рекурсії: "))
-    length = 300  # Можете змінити довжину сторони фрактала за потребою
+    # Зміна довжини сторони фрактала
+    length = 300  
 
     t.penup()
     t.goto(-length/2, length/3)
